@@ -54,3 +54,19 @@ body {
         object-fit: cover;
         display: block;
     }
+.main-content {
+    display: flex;
+    gap: 40px;
+    padding: 50px 0;
+}
+.content-left {
+    flex: 1;
+}
+.content-right {
+    flex: 1;
+}
+.content-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
