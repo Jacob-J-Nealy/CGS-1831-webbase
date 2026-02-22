@@ -128,3 +128,15 @@ body {
     color: #F2E9E4;
     margin-bottom: 1em;
 }
+
+footer {
+    background-color: #0B1F2A;
+    color: #F2E9E4;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+footer a {
+    color: orange;
+    text-decoration: none;
+}
