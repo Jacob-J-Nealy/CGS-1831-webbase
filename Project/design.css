@@ -46,10 +46,8 @@ body {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-
-        color: F2E9E4;
         font-size: 60px;
-        font-family: 'Playfair Display', serif; /* fancy font */
+        font-family: 'Playfair Display', serif;
         letter-spacing: 3px;
     }
     .banner-image {
@@ -76,40 +74,22 @@ body {
 }
 .featured-dish {
     font-family: 'Cursive', 'Brush Script MT', serif;
-    font-size: 3rem;
+    font-size: 3em;
     font-style: italic;
     color: #1F6F78;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 1em;
     display: inline-block;
 }
 .specialty-items {
     list-style-type: disc;
-    margin-left: 2rem;
-    font-size: 1.2rem;
+    margin-left: 2em;
+    font-size: 1.2em;
     font-family: 'Georgia', serif;
     color: #2B2B2B;
 }
 .specialty-items li {
-    margin: 0.5rem 0;
-}
-
-.menu-highlights {
-    display: flex;
-    justify-content: space-between;
-    margin: 3em 0;
-    gap: 2em;
-}
-.menu-column {
-    flex: 1;
-    text-align: center;
-    background-color: #0B1F2A;
-    padding: 1.5em;
-    border-radius: 10px;
-    font-family: 'Playfair Display', serif;
-    font-size: 1.4em;
-    color: #F2E9E4;
-    margin-bottom: 1em;
+    margin: 0.5em 0;
 }
 footer {
     background-color: #0B1F2A;
