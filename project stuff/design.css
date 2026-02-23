@@ -2,29 +2,20 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #F2E9E4;
-    color: #2B2B2B;
+    color: #0B1F2A;
 }
 #wrapper {
     width: 100%;
 }
-
 .header-title a {
     text-decoration: none;
-    color: #ffffff;
+    color: #F2E9E4;
     background-color: #3498db;
     padding: 0.5rem 1.2rem;
     border-radius: 8px;
-    transition: background 0.3s;
     font-size: 1.8rem;
     display: inline-block;
 }
-
-.header-title a:hover {
-    background-color: #2980b9;
-    cursor: pointer;
-}
-
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,11 +24,6 @@ body {
     padding: 15px 40px;
     border-bottom: 3px solid #E07A5F; 
 }
-    .navbar h1 {
-        margin: 0;
-        font-size: 36px;
-        color: #F2E9E4;
-    }
     .nav-links a {
         text-decoration: none;
         color: #F2E9E4;
@@ -51,17 +37,17 @@ body {
     height: 55px;
     width: auto;
 }
-
 .banner {
     position: relative;
 }
     .banner-title {
+        color: #F2E9E4;
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
 
-        color: white;
+        color: F2E9E4;
         font-size: 60px;
         font-family: 'Playfair Display', serif; /* fancy font */
         letter-spacing: 3px;
@@ -89,22 +75,20 @@ body {
     display: block;
 }
 .featured-dish {
-    font-family: 'Cursive', 'Brush Script MT', serif; /* elegant cursive options */
-    font-size: 3rem; /* large and prominent */
-    font-style: italic; /* extra elegance */
-    color: #2c3e50; /* deep ocean-inspired color */
-    text-align: center; /* centers under the image */
-    margin-top: 1rem; /* spacing from image */
-    text-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* subtle shadow for depth */
+    font-family: 'Cursive', 'Brush Script MT', serif;
+    font-size: 3rem;
+    font-style: italic;
+    color: #1F6F78;
+    text-align: center;
+    margin-top: 1rem;
     display: inline-block;
-    transform: rotate(-1deg); /* slight tilt for artistic effect */
 }
 .specialty-items {
     list-style-type: disc;
     margin-left: 2rem;
     font-size: 1.2rem;
     font-family: 'Georgia', serif;
-    color: #34495e;
+    color: #2B2B2B;
 }
 .specialty-items li {
     margin: 0.5rem 0;
