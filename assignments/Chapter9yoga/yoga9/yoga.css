@@ -161,12 +161,34 @@ caption {
   font-weight: bold;
   font-size: 120%;
 }
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em;
+  width: 80%;
+}
 
+input, textarea {
+  margin-bottom: 0.5em;
+}
 @media (min-width: 768px) {
   #mobile {
     display: none;
   }
   #desktop {
     display: inline;
+  }
+  form {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 12em 1fr;
+    grid-gap: 1em;
+  }
+  label {
+    text-align: right;
+  }
+  input[type="submit"] {
+    grid-column: 2;
+    width: 9em;
   }
 }
