@@ -140,6 +140,18 @@ footer {
   display: inline;
 }
 
+table {
+  width: 60%;
+  margin: 0 auto 1em auto;
+  border: 1px solid #3F2860;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid #3F2860;
+}
+
 @media (min-width: 768px) {
   #mobile {
     display: none;
