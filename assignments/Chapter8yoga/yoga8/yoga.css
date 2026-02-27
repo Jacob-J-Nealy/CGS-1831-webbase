@@ -152,6 +152,16 @@ td, th {
   border: 1px solid #3F2860;
 }
 
+tr:nth-of-type(even) {
+  background-color: #DBE8E9;
+}
+
+caption {
+  margin: 1em;
+  font-weight: bold;
+  font-size: 120%;
+}
+
 @media (min-width: 768px) {
   #mobile {
     display: none;
